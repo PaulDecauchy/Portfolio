@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 function Hero() {
     return (
@@ -9,7 +10,7 @@ function Hero() {
             <h1 className="text-5xl font-bold">Paul Decauchy</h1>
             <h2 className="text-3xl font-bold">Web Developer</h2>
             <p className="py-6">Etudiant à la web@cademie d&apos;Epitech et futur alternant chez Ubisoft.</p>
-            <button className="btn btn-primary">Get Started</button>
+            <Link href="#contact"><button className="btn btn-primary">Me contacter</button></Link>
           </div>
         </div>
       </div>
