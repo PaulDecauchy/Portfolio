@@ -23,6 +23,7 @@ function Navbar() {
           </label>
           <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
             <li><Link href="#homepage">Homepage</Link></li>
+            <li><Link href="#informations">Informations</Link></li>
             <li><Link href="#projets">Projets</Link></li>
             <li><Link href="#contact">Me contacter</Link></li>
           </ul>

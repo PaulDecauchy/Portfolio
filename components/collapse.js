@@ -17,7 +17,7 @@
   </div>
 </div> */}
 
-function Collapse({title, content}) {
+function Collapse({title, content, icons = []}) {
     return (
         <div  className="collapse collapse-arrow border border-base-300 bg-base-100 w-10/12 shadow-md mx-auto rounded-md">
             <input type="checkbox" /> 
@@ -26,6 +26,9 @@ function Collapse({title, content}) {
             </div>
             <div className="collapse-content bg-base-100">
                 <p className="pt-4"> {content} </p>
+                <div className="flex justify-evenly flex-wrap">
+                {icons}
+                </div>
             </div>
         </div>
 

@@ -2,8 +2,8 @@ import Image from 'next/image';
 
 function Hero() {
     return (
-        <div className="hero min-h-screen">
-        <div className="hero-content flex-col lg:flex-row-reverse bg-base-100 rounded-xl shadow-md">
+        <div className="hero min-h-screen bg-slate-100 mt-5 mb-5 pt-5 pb-10 shadow-xl rounded-xl w-11/12 mx-auto">
+        <div className="hero-content flex-col lg:flex-row-reverse bg-base-100 rounded-xl shadow-md max-w-[91%]">
           <Image src="/images/photo_pro.JPG" width={300} height={384} className="max-w-sm rounded-lg shadow-2xl" alt="Paul Decauchy de profil"/>
           <div>
             <h1 className="text-5xl font-bold">Paul Decauchy</h1>

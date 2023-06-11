@@ -4,7 +4,7 @@ function ContactInfo() {
     return (
       <div className="flex flex-col space-y-6">
         <a
-          href="https://github.com/your-username"
+          href="https://github.com/PaulDecauchy"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center text-gray-700 hover:text-gray-900"
@@ -13,7 +13,7 @@ function ContactInfo() {
           <span>Mon Github</span>
         </a>
         <a
-          href="mailto:your-email@example.com"
+          href="mailto:paul.decauchy@epitech.eu"
           className="flex items-center text-gray-700 hover:text-gray-900"
         >
           <FaEnvelope className="w-6 h-6 mr-1" />
