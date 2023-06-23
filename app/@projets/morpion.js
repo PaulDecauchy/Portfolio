@@ -18,16 +18,3 @@ function Morpion() {
 }
 
 export default Morpion;
-
-// import Card from "../../components/card";
-
-
-// export default function Battleship() {
-//     return (
-//       <Card
-//         title="Battleship"
-//         description="Battleship is a 2-player, 1-player, and 2-player battleship game"
-//         image="https://picsum.photos/200"
-//       />
-//     )
-// }
