@@ -3,7 +3,6 @@ import nodemailer from "nodemailer"
 
 export async function Submit(data) {
   
-  console.log(data);
   var transport = nodemailer.createTransport({
     host: "sandbox.smtp.mailtrap.io",
     port: 2525,
@@ -28,5 +27,4 @@ export async function Submit(data) {
     console.error(err);
     throw err;
   }
-  // console.log(data.object);
 }
