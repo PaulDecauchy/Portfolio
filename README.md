@@ -16,8 +16,6 @@ pnpm dev
 
 Ce projet utilise next/font pour optimiser et charger automatiquement Inter, une police Google personnalisée.
 
-## Déployer sur Vercel
+## Déployement sur Vercel
 
-Le moyen le plus simple de déployer votre application Next.js est d'utiliser la plateforme Vercel, créée par les développeurs de Next.js.
-
-Consultez notre documentation sur le déploiement de Next.js pour plus de détails.
+Vous pouvez consulter le site [ici](https://portfoliov2-ih19i5r5l-pauldecauchys-projects.vercel.app/)
