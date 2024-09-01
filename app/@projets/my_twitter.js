@@ -10,7 +10,7 @@ function Twitter() {
       ];
     return (
     <Card title="my_twitter" 
-    description="Jeu du morpion en ligne" 
+    description="Twitter-like qui m'a appris a travaillé en équipe." 
     image="/images/KwaKscreenshot.png" 
     icons={icons}/>
     )

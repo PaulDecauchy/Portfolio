@@ -9,7 +9,7 @@ function Hero() {
           <div>
             <h1 className="text-5xl font-bold">Paul Decauchy</h1>
             <h2 className="text-3xl font-bold">Web Developer</h2>
-            <p className="py-6">Etudiant à la web@cademie d&apos;Epitech et futur alternant chez Ubisoft.</p>
+            <p className="py-6">Etudiant à la web@cademie d&apos;Epitech et &quot;Backend developer Assistant&quot; chez Ubisoft.</p>
             <Link href="#contact"><button className="btn btn-primary">Me contacter</button></Link>
           </div>
         </div>

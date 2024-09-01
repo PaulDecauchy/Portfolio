@@ -15,7 +15,7 @@ export const metadata = {
 
 
  
-export default function ProjetLayout({ children, informations, projets, contact }) {
+export default function ProjetLayout({ children, informations, projets, contact, commentaires }) {
   return (
     <html className='scroll-smooth' lang="en">
       <body className={inter.className}>
@@ -52,6 +52,16 @@ export default function ProjetLayout({ children, informations, projets, contact 
               </h1>
 
               {contact}
+            </div>
+            <hr className="border-t-2 border-primary mx-auto w-1/2" />
+            <div id="commentaires" className="bg-slate-100 mt-5 pt-5 pb-5 shadow-xl rounded-xl w-11/12 mx-auto mb-5">
+              <h1 className="text-2xl font-bold pb-5 pr-2 pl-2">
+                <span className="underline underline-offset-3" style={{ textDecorationColor: 'hsl(var(--p))' }}>
+                  Commentaires
+                </span>
+              </h1>
+
+              {commentaires}
             </div>
           </div>
           <Footer />

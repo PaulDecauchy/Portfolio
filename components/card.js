@@ -12,12 +12,11 @@ function Card({
         <div className="p-1">
             <div className="card w-80 bg-base-100 shadow-xl">
                 <figure>
-                    <Image src={image} width={200} height={160} className="w-full" alt="Shoes" />
+                    <Image src={image} width={200} height={160} className="w-full" alt="Projects" />
                     </figure>
                 <div className="card-body">
                     <h2 className="card-title">
                         {title}
-                        <div className="badge badge-secondary">NEW</div>
                     </h2>
                     <p>{description}</p>
                     <div className="card-actions justify-end">
