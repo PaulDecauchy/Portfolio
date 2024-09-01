@@ -18,4 +18,4 @@ Ce projet utilise next/font pour optimiser et charger automatiquement Inter, une
 
 ## Déployement sur Vercel
 
-Vous pouvez consulter le site [ici](https://portfoliov2-ih19i5r5l-pauldecauchys-projects.vercel.app/)
+Vous pouvez consulter le site [ici](https://portfolio-pauldecauchys-projects.vercel.app/)
